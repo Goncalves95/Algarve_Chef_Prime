@@ -159,3 +159,33 @@ footer {
 #toggler:checked+label>span.open {
     display: none;
 }
+
+/*hero image */
+
+#hero-image {
+    width: 100%;
+    max-width: 1600px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    background:
+        var(--primary-color) url(../images/Table-event-flower.avif) center top / cover no-repeat;
+}
+
+#hero-image div {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    position: relative;
+}
+
+#hero-text {
+    color: var(--gold-secondary-color);
+    font-family: var(--logo-font);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    padding: 20px 30px;
+    border-left: 2px solid var(--primary-color);
+}
