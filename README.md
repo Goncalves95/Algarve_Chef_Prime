@@ -28,8 +28,6 @@ The website will be aimed at people interested in having a premium service, such
   - [Testing](#testing)
     - [Tests](#tests)
     - [Validator Testing](#validator-testing)
-    - [Fixed Bugs](#fixed-bugs)
-    - [Unfixed Bugs](#unfixed-bugs)
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -276,16 +274,12 @@ To test my website I have opened it on different devices, to see if it was worki
 - CSS
   - No errors were found when passing the final version through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
-### Fixed Bugs
-
-### Unfixed Bugs
-
 ## Credits
 
 ### Content
 
 - Instructions on how to make the navbar sticky were taken from [Web Dev Simplified, The Forgotten CSS Position](https://www.youtube.com/watch?v=NzjU1GmKosQ)
-- Some part's of the code its taken (lerned) from the loverun project.
+- Some part's of the code its taken (lerned) from the LoveRun project.
 - Instructions on how to apply glassmorphism to the form were taken from [Coding Artist tutorial](https://www.youtube.com/watch?v=FAfFlyaRAiI)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Instructions on how creat a tooltip in the form were taken from [Covildodev](https://www.covildodev.com.br/artigo/css-tooltip)
