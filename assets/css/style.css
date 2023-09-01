@@ -308,6 +308,133 @@ h3 {
     line-height: 0;
 }
 
+/* Contact page */
+
+#booking {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    height: fit-content;
+    position: relative;
+    margin-bottom: 2em;
+    font-family: var(--sans-font);
+}
+
+.form-background {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.form-background {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    --position: bottom center;
+    background:
+        var(--primary-color) url(../images/veal-mushroom.avif) var(--position) /cover no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.booking-info {
+    text-align: center;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.booking-info a {
+    font-family: var(--sans-font);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 80%;
+    padding: 10%;
+    margin: 100px auto;
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px var(--primary-color);
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .5em;
+    width: 100%;
+}
+
+.label-top {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    min-width: 200px;
+}
+
+input[type=radio]+label {
+    font-size: .7em;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+}
+
+option {
+    background-color: black;
+    padding: 1em;
+}
+
+.one-line {
+    width: 100%;
+}
+
+input,
+textarea,
+select,
+form>button {
+    font-family: var(--sans-font);
+    color: var(--secondary-color);
+    background-color: rgb(75, 75, 75, 0.5);
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    margin: 3px auto;
+    padding: .5em;
+}
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border: 1px solid var(--primary-color);
+    outline: var(--primary-color) solid;
+}
+
+form>button {
+    padding: .5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form>button:hover,
+form>button:focus {
+    background-color: var(--gold-secondary-color);
+    color: var(--primary-color);
+}
+
 /* footer */
 
 footer {
