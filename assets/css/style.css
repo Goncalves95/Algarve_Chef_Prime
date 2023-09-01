@@ -297,6 +297,17 @@ h3 {
     display: none;
 }
 
+/* Gallery page */
+
+#photos img {
+    width: 100%;
+    line-height: 1rem;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* footer */
 
 footer {
