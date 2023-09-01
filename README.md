@@ -25,6 +25,11 @@ The website will be aimed at people interested in having a premium service, such
     - [Performance](#performance)
   - [Deployment](#deployment)
     - [Live Website](#live-website)
+  - [Testing](#testing)
+    - [Tests](#tests)
+    - [Validator Testing](#validator-testing)
+    - [Fixed Bugs](#fixed-bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
 
 ## Design and User Experience
 
@@ -187,4 +192,87 @@ I have tested the performance in chrome, using lighthouse:
   - In the build and deployment area, choose from source "deply from a branch" and after in Branch choosse the main branch and root and save.
   - Once this is save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment (he take me more less 5 minutsfor appear the link).
 
-The live link can be found here - [Live Website](https://goncalves95.github.io/Chef-Prime/)
+The live link can be found here - [Live Website](https://goncalves95.github.io/Algarve_Chef_Prime/)
+
+## Testing
+
+To test my website I have opened it on different devices, to see if it was working as expected.
+
+- Browser tested:
+  - Chrome
+  - Firefox
+  - Safari
+
+- Operating systems:
+  - Android
+  - iOS
+
+### Tests
+
+  <details>
+  <summary>General</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
+  |Scale up the window | The contentent should not stretch over a certain size | Pass |
+  |Scale down the window | The contentent should be visible without having to scroll horizontally | Pass |
+  |Scale down under 840px width | The layout should switch from 2 to 1 column | Pass |
+
+  </details>
+
+  <details>
+  <summary>Navigation</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Scale down under 769px width | The top navigation bar should collapse into hamburger navbar | Pass |
+
+  </details>
+
+  <details>
+  <summary>Footer</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Click on the LinkedIn icon in the footer | It should open LinkedIn in a new tab | Pass |
+  |Click on the Instagram icon in the footer | It should open Instagram in a new tab | Pass |
+  |Click on the Facebook icon in the footer | It should open Facebook in a new tab | Pass |
+
+  </details>
+
+  <details>
+  <summary>Form</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Submit the form without any value | Browser should inform me that "Name" is a required field | Pass |
+  |Submit the form without email address | Browser should inform me that "Email" is a required field | Pass |
+  |Submit the form with invalid email address | Browser should inform me that "Email" field must be of email format | Pass |
+  |Submit the form without choosing a date | Browser should inform me that is a required field | Pass |
+  |Submit the form with all the required information | Form should be submitted and open a booked page page | Pass |
+
+  </details>
+
+  <details>
+  <summary>Booked </summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Click on the email address from the booked page | It should open the email client to send an email | Pass |
+  |Click on the "Bring me home" link in the booked page | User should be redirected to index.html | Pass |  
+  |Click on the adress in the booked page | It shoud open a new tab with the company adress in google maps | Pass |  
+
+  </details>  
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing the final version through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- CSS
+  - No errors were found when passing the final version through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
+### Fixed Bugs
+
+### Unfixed Bugs
+
