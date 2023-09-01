@@ -22,6 +22,9 @@ The website will be aimed at people interested in having a premium service, such
     - [Gallery Page](#gallery-page)
     - [Contact Page](#contact-page)
     - [Booked Page](#booked-page)
+    - [Performance](#performance)
+  - [Deployment](#deployment)
+    - [Live Website](#live-website)
 
 ## Design and User Experience
 
@@ -127,3 +130,61 @@ The home page contain the information about the company. In particular it contai
 - In the information existe the email, here the user can click on the link and open an email page with the company email address already filled in.  
 - In the contact information field there is also an address, which when selected opens the map in a new tab for directions to the location.
 - A call to action to bring the user back to the homepage, with direct link, so that users are not redirected automatically. The user can clic on the message "back to Home " or in the LOGO.
+
+### Performance
+
+I have tested the performance in chrome, using lighthouse:
+
+<details>
+  <summary> Desktop </summary>
+  
+- Home page:
+
+   ![Desktop - home page](assets/media/home-page-desk.png)
+
+- Gallery page:
+
+   ![Desktop - home page](assets/media/gallery-page-desk.png)
+
+- Contact page:
+
+   ![Desktop - home page](assets/media/contact-page-desl.png)
+
+- Booked page:
+
+   ![Desktop - home page](assets/media/booked-page-desk.png)
+
+</details>
+
+<details>
+  <summary> Mobile </summary>
+  
+- Home page:
+
+   ![Desktop - home page](assets/media/home-page-mob.jpg)
+
+- Gallery page:
+
+   ![Desktop - home page](assets/media/gallery-page-mob.jpg)
+
+- Contact page:
+
+   ![Desktop - home page](assets/media/contact-page-mob.jpg)
+
+- Booked page:
+
+   ![Desktop - home page](assets/media/booked-page-mob.jpg)
+
+</details>
+
+## Deployment
+
+### Live Website
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the Code and automation section drop-down menu, select the Pages.
+  - In the build and deployment area, choose from source "deply from a branch" and after in Branch choosse the main branch and root and save.
+  - Once this is save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment (he take me more less 5 minutsfor appear the link).
+
+The live link can be found here - [Live Website](https://goncalves95.github.io/Chef-Prime/)
