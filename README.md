@@ -30,6 +30,10 @@ The website will be aimed at people interested in having a premium service, such
     - [Validator Testing](#validator-testing)
     - [Fixed Bugs](#fixed-bugs)
     - [Unfixed Bugs](#unfixed-bugs)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+  - [Technologies used](#technologies-used)
 
 ## Design and User Experience
 
@@ -276,3 +280,29 @@ To test my website I have opened it on different devices, to see if it was worki
 
 ### Unfixed Bugs
 
+## Credits
+
+### Content
+
+- Instructions on how to make the navbar sticky were taken from [Web Dev Simplified, The Forgotten CSS Position](https://www.youtube.com/watch?v=NzjU1GmKosQ)
+- Some part's of the code its taken (lerned) from the loverun project.
+- Instructions on how to apply glassmorphism to the form were taken from [Coding Artist tutorial](https://www.youtube.com/watch?v=FAfFlyaRAiI)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Instructions on how creat a tooltip in the form were taken from [Covildodev](https://www.covildodev.com.br/artigo/css-tooltip)
+- Idea for make the :root code in css for simplify the introduction on css commands with the collors and fonts (Discord chanel : Ballerini)
+- The following fonts, used for the project, are from [Google Fonts](https://fonts.google.com/):
+  - Montserrat
+  - Poiret one
+  - Cormorant Garamond
+
+### Media
+
+- The photos used for this website are from [Unsplash](https://unsplash.com/)
+  - Logo created by me.
+  - Company name created and registred for me.
+- The video used for the booked page its from [VisitPortugal](https://www.visitportugal.com/)
+
+## Technologies used
+
+- HTML
+- CSS
