@@ -337,3 +337,138 @@ footer>div {
 #social i {
     font-size: 2em;
 }
+
+/* Media query */
+
+/* Large screens (large screen from 1800px and up) */
+@media only screen and (min-width: 1800px) {
+
+    #booking {
+        max-width: 1200px;
+    }
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+}
+
+/* Medium and large screens (992px and up */
+@media only screen and (min-width: 993px) {
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+}
+
+/* Medium screens ( 992px and down) */
+@media only screen and (max-width: 992px) {
+
+    footer>div {
+        width: 100%;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    #services div.card {
+        width: 90%;
+        --size: cover;
+        --position: center;
+    }
+}
+
+/* Medium small screens (768px and up) */
+
+@media only screen and (max-width: 840px) {
+    section {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .text-content {
+        max-width: 90%;
+    }
+
+    #about {
+        text-align: center;
+    }
+}
+
+/* All except mobile (768px and up) */
+
+@media only screen and (min-width: 769px) {
+    #toggler:checked~.collapsing-nav {
+        display: none;
+    }
+
+    #video {
+        margin-top: 90px;
+
+    }
+}
+
+/* Larger or lanscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
+/* Small screens (768px and down) */
+
+@media only screen and (max-width: 768px) {
+    #hero-text {
+        top: 50%;
+        left: 5%;
+    }
+
+    .large-screen,
+    ul.large-screen li {
+        display: none;
+    }
+
+    .small-screen {
+        display: block;
+    }
+
+    .sticky-nav {
+        position: relative;
+        top: 0;
+    }
+
+    .sticky-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #booking {
+        max-width: 100%;
+    }
+
+    #booking-confirmation {
+        width: 40%;
+    }
+
+    #video {
+        margin-top: 90px;
+    }
+
+    .form-container form {
+        width: 96%;
+    }
+
+    .form-background {
+        background-image: url(../images/Table-event-flower.avif);
+        --position: center;
+    }
+
+    section div img {
+        max-width: 100%;
+        min-width: 200px;
+    }
+}
