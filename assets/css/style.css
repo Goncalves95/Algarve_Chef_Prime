@@ -232,3 +232,32 @@ h3 {
     font-weight: 300;
 }
 
+/* footer */
+
+footer {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap-reverse;
+}
+
+footer>div {
+    width: 33%;
+    max-width: 400px;
+    padding: 1em 1em;
+    height: fit-content;
+
+    text-align: center;
+    font-family: var(--sans-font);
+    font-size: 0.7em;
+}
+
+#social ul {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+#social i {
+    font-size: 2em;
+}
