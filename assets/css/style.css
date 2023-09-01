@@ -493,6 +493,15 @@ div:hover.tooltip span {
     margin: 2em auto;
 }
 
+/* Video in booked page */
+#video {
+    text-align: center;
+}
+
+video {
+    width: 40%;
+}
+
 /* footer */
 
 footer {
