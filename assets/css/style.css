@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&family=Poiret+One&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@100;400&display=swap');
 
 :root {
-    --logo-font: 'Poiret One', serif;
+    --logo-font: 'ADLaM Display', serif;
     --serif-font: 'Cormorant Garamond', serif;
     --sans-font: 'Montserrat', sans-serif;
 

@@ -27,6 +27,7 @@ The website will be aimed at people interested in having a premium service, such
     - [Live Website](#live-website)
   - [Testing](#testing)
     - [Tests](#tests)
+    - [Fixed Bugs](#fixed-bugs)
     - [Validator Testing](#validator-testing)
   - [Credits](#credits)
     - [Content](#content)
@@ -267,6 +268,10 @@ To test my website I have opened it on different devices, to see if it was worki
 
   </details>  
 
+### Fixed Bugs
+
+Horizontal Scrolling in xs screens - Fixed with (overflow: auto;)
+
 ### Validator Testing
 
 - HTML
@@ -286,7 +291,7 @@ To test my website I have opened it on different devices, to see if it was worki
 - Idea for make the :root code in css for simplify the introduction on css commands with the collors and fonts (Discord chanel : Ballerini)
 - The following fonts, used for the project, are from [Google Fonts](https://fonts.google.com/):
   - Montserrat
-  - Poiret one
+  - ADLaM Display
   - Cormorant Garamond
 
 ### Media
