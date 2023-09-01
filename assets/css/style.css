@@ -332,7 +332,7 @@ h3 {
     max-width: 1200px;
     --position: bottom center;
     background:
-        var(--primary-color) url(../images/veal-mushroom.avif) var(--position) /cover no-repeat fixed;
+        var(--primary-color) url(../images/table-event-flower.avif) var(--position) /cover no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -657,7 +657,7 @@ footer>div {
     }
 
     .form-background {
-        background-image: url(../images/Table-event-flower.avif);
+        background-image: url(../images/table-event-flower.avif);
         --position: center;
     }
 
