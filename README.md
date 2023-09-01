@@ -16,22 +16,21 @@ The website will be aimed at people interested in having a premium service, such
   - [Table of content](#table-of-content)
   - [Design and User Experience](#design-and-user-experience)
     - [Design](#design)
-  - [Features](#features)
-    - [Navbar and footer](#navbar-and-footer)
-    - [Home Page](#home-page)
-    - [Gallery Page](#gallery-page)
-    - [Contact Page](#contact-page)
-    - [Booked Page](#booked-page)
-  - [Testing](#testing)
-    - [Tests](#tests)
-    - [Validator Testing](#validator-testing)
-    - [Fixed Bugs](#fixed-bugs)
-    - [Unfixed Bugs](#unfixed-bugs)
-    - [Performance](#performance)
-  - [Deployment](#deployment)
-    - [Live Website](#live-website)
-    - [Local Deployment](#local-deployment)
-  - [Credits](#credits)
-    - [Content](#content)
-    - [Media](#media)
-  - [Technologies used](#technologies-used)
+
+## Design and User Experience
+
+### Design
+
+The design of the website is minimalist, to allow the content to show up.
+
+Fonts:
+
+- Poiret one - This is the brand font, so it's used for the Logo, the Wines names and the tasting expeciences names.
+- Montserrat (sans serif) - Used for the headings, the menu and the footer.
+- Cormorant Garamond (serif) - As serif font is used for the smaller text (paragraphh content), it's more readable.
+
+Colours:
+
+![colors](assets/media/rgb_colors.jpg)
+
+- Primary color.   Secondary color.    Gold secondary color.
