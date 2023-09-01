@@ -77,6 +77,11 @@ footer {
     padding: .5em 0;
 }
 
+.logo-center{
+    width: 40px;
+    height: 40wpx;
+}
+
 
 #nav {
     max-width: 100%;
@@ -142,7 +147,7 @@ footer {
     row-gap: .2em;
 }
 
-.collapsing-nav>ul li {
+.collapsing-nav > ul li {
     padding: .3em;
 }
 
@@ -474,7 +479,7 @@ div:hover.tooltip span {
 }
 
 /*booked page */
-.logo-center {
+.logocenter {
     margin: 0 auto;
     padding: 0;
     width: fit-content;
@@ -619,6 +624,11 @@ footer>div {
         top: 50%;
         left: 5%;
     }
+
+    #hero-image {
+        background:
+            url(../images/table-event-flower_mobi.jpg);
+        }
 
     .large-screen,
     ul.large-screen li {
