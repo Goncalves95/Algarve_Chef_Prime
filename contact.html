@@ -72,6 +72,90 @@
                     Contact us!</h3>
             </div>
         </div>
+    </div>
+
+        <!--  Contact Form */ -->
+        <div class="booking-info">
+            <h3>Fill in the next form for a quote.</h3>
+            <p>Please, <a href="#contact" aria-label="Go to contact section">contact us</a> if you need more information or to
+                hire us! </p>
+        </div>
+        <section id="booking">
+            <div class="form-background">
+                <div class="form-container">
+                    <!-- Booking form-->
+                    <form action="booked.html" method="GET">
+                        <div class="input-group">
+                            <span class="label-top">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </span>
+                            <span class="label-top">
+                                <label for="lname">Last Name:</label>
+                                <input type="text" id="lname" name="lname" required>
+                            </span>
+                            <span class="label-top">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </span>
+                            <span class="label-top">
+                                <label for="phone">Phone Nunber:</label>
+                                <input type="number" id="phone" name="phone" required>
+                            </span>
+                        </div>
+                        <div class="input-group">
+                            <p class="one-line">Select the service</p>
+                            <span>
+                                <input type="radio" name="experience-selection" value="chef-home" id="chef-home" required>
+                                <label for="chef-home">Chef in Home</label>
+                            </span>
+                            <span>
+                                <input type="radio" name="experience-selection" value="planing" id="planing">
+                                <label for="planing">Event Planing</label>
+                            </span>
+                            <span>
+                                <input type="radio" name="experience-selection" value="holidays" id="holidays">
+                                <label for="holidays">Holidays Menu</label>
+                            </span>
+                        </div>
+                        <div class="input-group">
+                            <span>
+                                <label for="date">Choose your date:</label>
+                                <input type="date" id="date" name="date" min="2022-08-01" max="2026-01-01" required>
+                            </span>
+                            <span>
+                                <label for="date">Until:</label>
+                                <input type="date" id="date" name="date" min="2022-08-01" max="2026-01-01">
+                            </span>
+                        </div>
+                        <div class="input-group">
+                            <span>
+                                <label for="number">Number of people:</label>
+                                <select id="number" name="number">
+                                    <option value="2-10">2 to 10</option>
+                                    <option value="11-20">11 to 20</option>
+                                    <option value="21-30">21 to 30</option>
+                                    <option value="31-40">31 to 40</option>
+                                    <option value="41-50">41 to 50</option>
+                                    <option value="50-80">50 to 80</option>
+                                    <option value="more-80">more than 80</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="input-group">
+                            <label for="additional" class="one-line">Additional information <div class="tooltip">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                    <span>If you have any questions, please post them here, or a special request.</span>
+                                </div></label><textarea name="additional" id="additional"></textarea>
+                        </div>
+                        <button onclick="booked.html" aria-label="Submit form or ask a quote" class="submit">Submit</button>
+                        <button type="reset" class="reset">Reset</button>
+        
+                    </form>
+                </div>
+            </div>
+        </section>
+
 
     <!-- Footer -->
     <footer aria-labelledby="social">
