@@ -160,7 +160,7 @@ footer {
     display: none;
 }
 
-/*hero image */
+/*Hero image */
 
 #hero-image {
     width: 100%;
@@ -169,7 +169,7 @@ footer {
     overflow: hidden;
     margin: 0 auto;
     background:
-        var(--primary-color) url(../images/Table-event-flower.avif) center top / cover no-repeat;
+        var(--primary-color) url(../images/table-event-flower.avif) center top / cover no-repeat;
 }
 
 #hero-image div {
@@ -230,6 +230,71 @@ h1 {
 h3 {
     font-family: var(--sans-font);
     font-weight: 300;
+}
+
+/* Our Services card's */
+#services > .card {
+    color: var(--primary-color);
+    width: 33%;
+    margin: 0 auto;
+    height: 400px;
+    --size: 500px;
+
+    background:
+        var(--primary-color) var(--url) var(--position) / var(--size) no-repeat;
+}
+
+#chef-home {
+    --url: url(../images/photo-take-another-photo.avif);
+    --position: center;
+    --size: 400px;
+}
+
+#events {
+    --url: url(../images/apetizer-table.avif);
+    --position: center;
+}
+
+#holidays {
+    --url: url(../images/salmon-and-burrata.avif);
+    --position: center;
+}
+
+.card-text-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#our-services {
+    text-align: center;
+}
+
+.card-text-content:hover {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#services {
+    max-width: 1200px;
+    display: flex;
+    gap: 2px;
+}
+
+#services h1 {
+    font-family: var(--logo-font);
+}
+
+.large-screen {
+    display: block;
+}
+
+.small-screen {
+    display: none;
 }
 
 /* footer */
