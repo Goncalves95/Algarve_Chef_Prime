@@ -620,6 +620,20 @@ footer>div {
 /* Small screens (768px and down) */
 
 @media only screen and (max-width: 768px) {
+    * {
+        overflow: auto;
+    }
+    
+    #social i {
+        font-size: 1,5em;
+    }
+
+    #social ul {
+        display: flex;
+        justify-content: center;
+         gap: 2em;
+    }
+
     #hero-text {
         top: 50%;
         left: 5%;
